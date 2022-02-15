@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Comforter+Brush&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* START of Header Styles */
+
+header {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+nav {
+    width: 60%;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+nav .left-nav-section {
+    width: 45%;
+}
+
+nav div {
+    font-size: 10px;
+}
+
+nav span {
+    color: rgba(124, 112, 244, 1);
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.logo {
+    line-height: 0.9;
+}
+
+.logo h1 {
+    font-size: 48px;
+}
+
+.logo p {
+    font-size: 12px;
+}
+
+.map a, .search, .buy,
+.posts, .wallet, .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 1px;
+}
+
+.map ion-icon {
+    margin-right: 5px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.user ion-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.user ion-icon {
+    font-size: 18px;
+}
+
+/* END of Header Styles */
+
+/* START of Main Content Styles */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px rgb(27, 26, 26);
+    padding: 5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.upper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 5px;
+}
+
+.upper-wrapper p {
+    font-size: 12px;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5%;
+}
+
+.square-shapes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 2px rgb(27, 26, 26);
+}
+
+.square-shapes ion-icon {
+    color: rgba(124, 112, 244, 1);
+    font-size: 8px;
+}
+
+/* Main Wrapper Styles */
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* START of Main Left Wrapper Styles */
+
+.main-wrapper-left {
+    width: 20%;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 5px 10px;
+    margin: 5px 0;
+    position: relative;
+    top: -845px;
+}
+
+.line-vector {
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.filter p {
+    font-size: 12px;
+}
+
+.stars-container {
+    text-align: center;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 10px 0;
+}
+
+.main-wrapper-left .title {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.sort-toggle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-wrapper-left .price-input {
+    display: inline-block;
+    width: 45%;
+}
+
+.price-range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-wrapper-left-buttons {
+    text-align: center;
+}
+
+.main-wrapper-left-buttons button {
+    border: none;
+}
+
+.apply-btn {
+    background-color: rgba(23, 23, 23, 1);
+    color: #fff;
+    padding: 3px 0;
+    width: 60%;
+}
+
+.clear-btn {
+    font-size: 12px;
+    background-color: transparent;
+    padding: 3px 0;
+    color: rgba(100, 120, 242, 1);
+}
+
+/* START of left section of main wrapper styles */
+
+.main-wrapper-right {
+    width: 80%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.main-wrapper-right .card {
+    width: 100%;
+}
+
+.main-wrapper-right .card img {
+    width: 100%;
+}
+
+.main-wrapper-right .card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-wrapper-right .card p {
+    font-size: 11px;
+}
+
+.main-wrapper-right .card a {
+    color: rgba(100, 120, 242, 1);
+    font-size: 11px;
+}
+
+.price {
+    width: 100%;
+}
+
+.card-stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description, .location, .price {
+    margin-bottom: 5px;
+}
+
+.location p {
+    color: rgba(128, 128, 128, 1);
+}

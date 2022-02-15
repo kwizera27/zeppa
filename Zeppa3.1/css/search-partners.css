@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Comforter+Brush&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../images/8185E532\ 1.png);
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+body p {
+    margin-bottom: 0;
+}
+
+/* START of Header Styles */
+
+header {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+nav {
+    width: 60%;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+nav .left-nav-section {
+    width: 45%;
+}
+
+nav div {
+    font-size: 10px;
+}
+
+nav span {
+    color: rgba(124, 112, 244, 1);
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.logo {
+    line-height: 0.9;
+}
+
+.logo h1 {
+    font-size: 48px;
+}
+
+.logo p {
+    font-size: 12px;
+}
+
+.map a, .search, .buy,
+.posts, .wallet, .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 1px;
+}
+
+.map ion-icon {
+    margin-right: 5px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.user ion-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.user ion-icon {
+    font-size: 18px;
+}
+
+.logo h1 {
+    margin-bottom: 0;
+}
+
+/* START of Main Content Styles */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 5px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+    padding: 20px 0;
+}
+
+.wrapper-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper-links {
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+}
+
+.wrapper-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper-links ul a {
+    color: rgba(128, 128, 128, 1);
+    font-size: 12px;
+}
+
+.wrapper-links ul a:hover {
+    color: rgba(23, 23, 23, 1);
+}
+
+.wrapper-links ul .current {
+    color: rgba(23, 23, 23, 1);
+    font-weight: bold;
+}
+
+.search-results {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.search-partners-wrapper {
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 20px;
+    position: relative;
+}
+
+.see-more {
+    font-size: 12px;
+    background: transparent;
+    color: rgba(23, 23, 23, 1);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.see-more:hover {
+    color: rgba(23, 23, 23, 1);
+    font-weight: bold;
+}
+
+/* .partners {
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom: 20px;
+} */
+
+.partner {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.partner-logo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-logo .logo-img {
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.partner-logo h6 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.partner-logo p {
+    font-size: 10px;
+}
+
+.partner .partner-text {
+    /* width: 95%; */
+    margin: 0 auto;
+    justify-self: center;
+}
+
+.partner .partner-follow-btn {
+    justify-self: end;
+}
+
+.partner-follow-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-follow-btn a {
+    background: rgba(23, 23, 23, 1);
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.partner-follow-btn ion-icon {
+    font-size: 20px;
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+    padding: 5px;
+    box-shadow: 0 0 1px rgb(27, 26, 26);
+}
+
+/* END of Main Content Styles */
+
+/* START of Banner Styles */
+
+.banner {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+}
+
+.banner .banner-container h6 {
+    font-size: 14px;
+    margin-bottom: 20px;
+} 
+
+.banner .banner-container p, .banner .banner-container a {
+    font-size: 11.5px;
+}
+
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+}
+
+.download-app a {
+    width: 60%;
+}
+
+.goo {
+    width: 20px;
+}
+
+.banner-address .street-name {
+    width: 90%;
+}
+
+.banner-about-us div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer {
+    background-image: url(../images/Rectangle\ 3763.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.vectors {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vectors img {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+}
+
+/* END of Banner and Footer Styles */

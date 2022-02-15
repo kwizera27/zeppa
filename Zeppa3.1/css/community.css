@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Comforter+Brush&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body p {
+    margin-bottom: 0;
+}
+
+/* START of Header Styles */
+
+header {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+nav {
+    width: 60%;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+nav .left-nav-section {
+    width: 45%;
+}
+
+nav div {
+    font-size: 10px;
+}
+
+nav span {
+    color: rgba(124, 112, 244, 1);
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.logo {
+    line-height: 0.9;
+}
+
+.logo h1 {
+    font-size: 48px;
+}
+
+.logo p {
+    font-size: 12px;
+}
+
+.map a, .search, .buy,
+.posts, .wallet, .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 1px;
+}
+
+.map ion-icon {
+    margin-right: 5px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.user ion-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.user ion-icon {
+    font-size: 18px;
+}
+
+.logo h1 {
+    margin-bottom: 0;
+}
+
+/* END of Header Styles */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 5px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.inner-container {
+    margin: 0 auto;
+    box-shadow: 0 0 2px rgb(27, 26, 26);
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container .title {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+}
+
+.inner-container .title h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.map-picture {
+    background-image: url(../images/map-picture.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    padding: 10px;
+}
+
+.map-picture section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map-picture .map-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background: #fff;
+}
+
+.map-search-input-box {
+    width: 90%;
+}
+
+.map-search-input {
+    width: 90%;
+}
+
+.map-picture .map-search .map-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map-filter ion-icon {
+    margin-right: 10px;
+}
+
+.map-filter p {
+    font-size: 12px;
+}
+
+.map-reset-btn {
+    margin-left: 20px;
+    background: rgba(72, 72, 72, 1);
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.map-reset-btn:hover {
+    background-color: rgba(173, 173, 173, 1);
+}
+
+button {
+    border: none;
+}
+
+button a {
+    background: rgba(72, 72, 72, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 12px;
+
+}
+
+button a:hover {
+    background-color: rgba(173, 173, 173, 1);
+}
+
+button a:hover {
+    color: #fff;
+}
+
+/* START of Banner Styles */
+
+.banner {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+}
+
+.banner .banner-container h6 {
+    font-size: 14px;
+    margin-bottom: 20px;
+} 
+
+.banner .banner-container p, .banner .banner-container a {
+    font-size: 11.5px;
+}
+
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+}
+
+.download-app a {
+    width: 60%;
+}
+
+.goo {
+    width: 20px;
+}
+
+.banner-address .street-name {
+    width: 90%;
+}
+
+.banner-about-us div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer {
+    background-image: url(../images/Rectangle\ 3763.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.vectors {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vectors img {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+}
+
+/* END of Banner and Footer Styles */

@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Comforter+Brush&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* START of Header Styles */
+
+header {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+nav {
+    width: 60%;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+nav .left-nav-section {
+    width: 45%;
+}
+
+nav div {
+    font-size: 10px;
+}
+
+nav span {
+    color: rgba(124, 112, 244, 1);
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.logo {
+    line-height: 0.9;
+}
+
+.logo h1 {
+    font-size: 48px;
+}
+
+.logo p {
+    font-size: 12px;
+}
+
+.map a, .search, .buy,
+.posts, .wallet, .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 1px;
+}
+
+.map ion-icon {
+    margin-right: 5px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.user ion-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.user ion-icon {
+    font-size: 18px;
+}
+
+/* END of Header Styles */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px rgb(27, 26, 26);
+    padding: 5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.upper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.upper-wrapper p {
+    font-size: 12px;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5%;
+}
+
+.square-shapes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 2px rgb(27, 26, 26);
+}
+
+.square-shapes ion-icon {
+    color: rgba(124, 112, 244, 1);
+    font-size: 8px;
+}
+
+
+/* START of Main Wrapper Styles */
+
+.main-wrapper {
+    margin-bottom: 200px;
+}
+
+.main-wrapper-left {
+    width: 80%;
+}
+
+.main-wrapper-left .main-img {
+    width: 100%;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.imgs {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.imgs img {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
+}
+
+.card .text {
+    justify-self: end;
+}
+
+.card .location {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.card section a {
+    color: rgba(124, 112, 244, 1);
+}
+
+.card section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.card .description {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.hashtags {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.quantity-text {
+    font-size: 10px;
+}
+
+.amount {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+.buy-btn {
+    color: #fff;
+    width: 50%;
+    border: none;
+    background-color: rgba(23, 23, 23, 1);
+    padding: 15px 0;
+}
+
+.cart-btn {
+    width: 30%;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 0.8px rgb(27, 26, 26);
+    padding: 11px 0;
+}
+
+.cart-btn ion-icon {
+    font-size: 18px;
+}
+
+/* START of Banner Styles */
+
+.banner {
+    background-image: url(../images/8185E532\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 26, 26);
+    margin-bottom: 5px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.banner .banner-container h6 {
+    font-size: 14px;
+    margin-bottom: 20px;
+} 
+
+.banner .banner-container p, .banner .banner-container a {
+    font-size: 11.5px;
+}
+
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+}
+
+.download-app a {
+    width: 60%;
+}
+
+.goo {
+    width: 20px;
+}
+
+.banner-address .street-name {
+    width: 90%;
+}
+
+.banner-about-us div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer {
+    background-image: url(../images/Rectangle\ 3763.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.vectors {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vectors img {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+}
+
+/* END of Banner and Footer Styles */
